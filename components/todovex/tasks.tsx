@@ -4,7 +4,6 @@ import { useQuery } from "convex/react";
 
 export default function Tasks() {
   const tasks = useQuery(api.tasks.get);
-  console.log(tasks);
   return (
     <div>
       <h2>Tasks</h2>
