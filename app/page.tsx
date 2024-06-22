@@ -1,3 +1,4 @@
+import { signInAction } from "@/actions/auth-action";
 import Tasks from "@/components/todovex/tasks";
 import { Button } from "@/components/ui/button";
 
@@ -8,6 +9,7 @@ export default function Home() {
       <Button variant={"destructive"}>Click Me!</Button>
 
       <Tasks />
+
       <form action={signInAction}>
         <Button variant={"outline"}>Sign In</Button>
       </form>
