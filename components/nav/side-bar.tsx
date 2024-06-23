@@ -43,7 +43,7 @@ export default function SideBar() {
       return {
         ...(idx === 0 && { id: "projects" }),
         name,
-        link: `/loggedin/projects/${_id.toString()}`,
+        link: `/dashboard/projects/${_id.toString()}`,
         icon: <Hash className="w-4 h-4" />,
       };
     });

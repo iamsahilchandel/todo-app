@@ -15,7 +15,7 @@ export default function ProjectList() {
       <div className="flex flex-col gap-1 py-4">
         {projects?.map((project) => {
           return (
-            <Link key={project._id} href={`/loggedin/projects/${project._id}`}>
+            <Link key={project._id} href={`/dashboard/projects/${project._id}`}>
               <div className="flex items-center space-x-2 border-b-2 p-2 border-gray-100">
                 <Hash className="text-primary w-5" />
                 <Label

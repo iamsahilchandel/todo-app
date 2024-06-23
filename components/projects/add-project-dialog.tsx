@@ -46,7 +46,7 @@ function AddProjectDialogContent() {
         duration: 3000,
       });
       form.reset({ name: "" });
-      router.push(`/loggedin/projects/${projectId}`);
+      router.push(`/dashboard/projects/${projectId}`);
     }
   };
   return (

@@ -12,7 +12,7 @@ export default function SearchForm() {
 
   const onSubmit = async ({ searchText }: any) => {
     console.log("submitted", { searchText });
-    router.push(`/loggedin/search/${searchText}`);
+    router.push(`/dashboard/search/${searchText}`);
   };
 
   return (

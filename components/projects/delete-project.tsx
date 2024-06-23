@@ -39,7 +39,7 @@ export default function DeleteProject({
           title: "🗑️ Successfully created a project",
           duration: 3000,
         });
-        router.push(`/loggedin/projects`);
+        router.push(`/dashboard/projects`);
       }
     }
   };
